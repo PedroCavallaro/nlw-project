@@ -1,9 +1,15 @@
 export default function Home() {
   return (
-    <div className="text-2xl font-bold uppercase">
-      oi
-    </div>
-    
-
+    <main className="grid min-h-screen grid-cols-2">
+      {/* left */}
+      <div></div>
+      {/* rigth */}
+      <div>
+        <p>
+          Você ainda não registrou nunhuma lembrança, comece a {''}
+          <a href="">Criar agoraa</a>
+        </p>
+      </div>
+    </main>
   )
 }
