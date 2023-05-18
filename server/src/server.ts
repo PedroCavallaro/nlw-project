@@ -4,6 +4,9 @@ import { memoriesRoutes } from "./routes/memorys";
 
 const app = fastify();
 
+app.register(Cors, {
+  origin: true,
+});
 app.register(memoriesRoutes);
 
 app
