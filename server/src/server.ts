@@ -21,6 +21,7 @@ app.register(memoriesRoutes);
 app
   .listen({
     port: 3333,
+    host: "0.0.0.0",
   })
   .then(() => {
     console.log("runing on https://localhost:3333");
